@@ -1,0 +1,29 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<link rel="import" href="../iron-localstorage/iron-localstorage.html">
+<!--
+
+The `air-cruddy-localstorage` provides Create Retrieve Update Delete (CRUD) implementation for the localstorage format.
+
+@group air-cruddy-localstorage Elements
+@element air-cruddy-localstorage
+-->
+
+<dom-module id="air-cruddy-localstorage">
+
+    <iron-localstorage name="my-app-storage" value="{{value}}"></iron-localstorage>
+
+</dom-module>
+<script>
+    Polymer({
+        is: 'air-cruddy-localstorage',
+
+        properties: {
+            endpoint: {
+                type: String,
+                notify: true
+            },
+        }
+
+    });
+</script>

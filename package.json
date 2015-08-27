@@ -1,0 +1,37 @@
+{
+  "name": "air-cruddy-localstorage",
+  "version": "0.0.1",
+  "description": "Air Cruddy Localstorage",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test:local"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FiveElements/air-cruddy-cloudy.git"
+  },
+  "keywords": [
+    "web-components",
+    "polymer",
+    "five-elements",
+    "air-elements",
+    "crud",
+    "localstorage"
+  ],
+  "author": "Five Elements Author",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FiveElements/air-cruddy-localstorage/issues"
+  },
+  "homepage": "https://github.com/FiveElements/air-cruddy-localstorage#readme",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "jshint-stylish": "^2.0.1",
+    "web-component-tester": "^3.3.6"
+  }
+}
